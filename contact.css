@@ -1,0 +1,24 @@
+.contact-info {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.map-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}

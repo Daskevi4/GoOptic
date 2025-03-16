@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Optic</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <button class="menu-toggle">☰</button>
+        <div class="logo">Go Optic</div>
+        <button class="theme-toggle">🌙</button>
+    </header>
+    <nav class="sidebar">
+        <button class="close-btn">×</button>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Главное изображение" loading="lazy">
+            <h1>Идеальное зрение с Go Optic</h1>
+        </section>
+        <section class="products">
+            <h2>Наши очки</h2>
+            <div class="product">
+                <img src="images/glasses1.jpg" alt="Очки 1" loading="lazy">
+                <p>Стильные и удобные очки для повседневного использования.</p>
+            </div>
+            <div class="product">
+                <img src="images/glasses2.jpg" alt="Очки 2" loading="lazy">
+                <p>Защита от синего света для комфортной работы за компьютером.</p>
+            </div>
+            <div class="product">
+                <img src="images/glasses3.jpg" alt="Очки 3" loading="lazy">
+                <p>Поляризованные солнцезащитные очки для защиты от ультрафиолета.</p>
+            </div>
+        </section>
+    </main>
+    <div class="chat-circle">💬</div>
+    <div class="chat-box">
+        <p><strong>Чат с поддержкой</strong></p>
+        <p>Здравствуйте! Чем можем помочь?</p>
+        <input type="text" id="chat-input" placeholder="Введите сообщение...">
+        <button id="send-btn">Отправить</button>
+    </div>
+</body>
+</html>
